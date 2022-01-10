@@ -13,7 +13,7 @@ nav .inside-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--px-10) 0;
+  padding: var(--px-10) 3rem;
 }
 
 [aria-controls="navbarDropdown"] { display: none; }
@@ -49,6 +49,7 @@ nav ul {
   grid-template-rows: 1fr 230px;
   gap: var(--px-70);
   margin-top: var(--px-70);
+  padding: 3rem;
 }
 
 .empowering-teams > header { text-align: left; }
