@@ -1,0 +1,148 @@
+:root {
+  --clr-font-primary: #6c7d8c;
+  --clr-font-headers: #222426;
+  --clr-accent: #3587f2;
+  --clr-accent-hover: #4eaafa;
+  --clr-white: #fff;
+  --clr-circles: #ecf2ff;
+  --clr-background-grey: #f2f2f2;
+
+  --px-5: 0.3125rem;
+  --px-10: 0.625rem;
+  --px-14: 0.875rem;
+  --px-15: 0.937rem;
+  --px-16: 1rem;
+  --px-20: 1.25rem;
+  --px-25: 1.5625rem;
+  --px-30: 1.875rem;
+  --px-40: 2.5rem;
+  --px-50: 3.125rem;
+  --px-60: 3.75rem;
+  --px-70: 4.375rem;
+  --px-90: 5.625rem;
+  --px-100: 6.25rem;
+  --px-130: 8.125rem;
+  --px-150: 9.375rem;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth;}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: var(--clr-font-primary);
+  padding-bottom: var(--px-70);
+  overflow-x: hidden;
+}
+ 
+.btn-get-started .fa-angle-right { color: var(--clr-white); }
+
+h1,
+h2,
+h3 { color: var(--clr-font-headers); }
+
+header { text-align: center; }
+
+a { text-decoration: none; }
+
+img { width: 100%; }
+
+ul {
+  list-style: none;
+  padding: 0; 
+}
+
+blockquote { margin-left: 0; }
+
+small { color: var(--clr-font-primary); }
+
+input,
+select,
+textarea {
+  padding: var(--px-16) 0 var(--px-16) var(--px-10);
+  border: 1px solid lightgrey;
+  border-radius: 0.25rem;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: var(--clr-accent);
+  color: var(--clr-white);
+  border-radius: var(--px-25);
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  user-select: none;
+}
+
+.learn-more,
+.fa-angle-right {
+  color: var(--clr-accent);
+  margin-right: var(--px-5);
+}
+
+.card { box-shadow: 0 var(--px-15) var(--px-15) lightgrey; }
+
+.key-benefits header > h2,
+.why-front header > h2,
+.pricing header > h2 {
+  font-size: clamp(var(--px-30), 5vw, var(--px-40));
+  margin: 0;
+}
+
+nav a:hover,
+.empowering-teams .learn-more:hover,
+.key-benefits a:hover,
+footer a:hover {
+  color: var(--clr-accent-hover);
+  text-decoration: underline solid var(--clr-accent); 
+}
+
+nav a:focus,
+.empowering-teams .learn-more:focus,
+.key-benefits a:focus,
+footer a:focus,
+form a:focus {
+  color: var(--clr-accent-hover);
+  outline: none;
+  border-bottom: none;
+  text-decoration: underline 2px solid var(--clr-accent); 
+}
+
+.btn:hover {
+  color: var(--clr-white); 
+  background-color: var(--clr-accent-hover); 
+  text-decoration: none;
+}
+
+.btn:focus { 
+  color: var(--clr-white);
+  outline: none;
+  background-color: var(--clr-accent-hover); 
+  border: 1px solid var(--clr-accent)     ;
+  text-decoration: none;
+}
+
+
+input:hover,
+select:hover,
+textarea:hover {
+  outline: none;
+  border: 1px solid var(--clr-accent);
+}
+
+form a:hover { 
+  color: var(--clr-accent-hover); 
+  border-bottom: none;
+  text-decoration: underline 2px solid var(--clr-accent);
+}
+
+
