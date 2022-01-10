@@ -13,7 +13,7 @@ nav .inside-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--px-10) 3rem;
+  padding: var(--px-10);
 }
 
 [aria-controls="navbarDropdown"] { display: none; }
