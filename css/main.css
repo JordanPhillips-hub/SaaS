@@ -49,10 +49,12 @@ nav ul {
   grid-template-rows: 1fr 230px;
   gap: var(--px-70);
   margin-top: var(--px-70);
-  padding: 3rem;
 }
 
-.empowering-teams > header { text-align: left; }
+.empowering-teams > header { 
+  text-align: left; 
+  width: 89%;
+}
 
 .empowering-teams h1 {
   font-size: clamp(var(--px-40), 5vw, var(--px-60));
@@ -77,6 +79,7 @@ nav ul {
 .logo-icons {
   position: relative;
   right: var(--px-25);
+  width: 80%;
 }
 
 .icon {
@@ -315,6 +318,7 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   place-items: center;
+  width: 70%;
   /* margin-bottom: var(--px-130); */
 }
 
@@ -326,7 +330,7 @@ nav ul {
 }
 
 .hubspot .christina-kray {
-  width: 80%;
+  width: 70%;
   border-radius: var(--px-5);
 }
 
@@ -334,7 +338,7 @@ nav ul {
   position: absolute;
   left: -45px;
   bottom: -38px;
-  width: 12.5rem;
+  width: 10.5rem;
   z-index: -100;
 }
 
@@ -509,6 +513,10 @@ form small a {
 /* ==========
      FOOTER
    ========== */
+footer {
+  width: 90%;
+  margin: 0 auto;
+}
 
 footer .inner-wrapper,
 footer .columns-container {

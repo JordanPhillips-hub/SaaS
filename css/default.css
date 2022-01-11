@@ -29,6 +29,8 @@
 *::before,
 *::after { box-sizing: border-box; }
 
+/* * { outline: 1px solid red;} */
+
 html { scroll-behavior: smooth;}
 
 body {
@@ -37,7 +39,7 @@ body {
   font-weight: 500;
   color: var(--clr-font-primary);
   padding-bottom: var(--px-70);
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
  
 .btn-get-started .fa-angle-right { color: var(--clr-white); }
