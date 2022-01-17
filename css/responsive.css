@@ -24,6 +24,7 @@
     font-size: var(--px-20);
     padding: 1em 0.5em;
     pointer-events: none;
+    color: var(--clr-white);
   }
 
   [aria-expanded="false"] ~ ul { display: none; }
