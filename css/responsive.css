@@ -22,7 +22,7 @@
 
   [aria-controls="navbarDropdown"] span {
     font-size: var(--px-20);
-    padding: 1em 0.5em;
+    padding: 2em 0.5em;
     pointer-events: none;
     color: var(--clr-white);
   }
@@ -85,6 +85,8 @@
     height: 18.75rem;
     margin: var(--px-25) 0;
   }
+
+  .why-front .video-btn { left: 44%; }
 
   .hubspot {
     display: flex;
@@ -158,6 +160,5 @@
 }
 
 @media  screen and (max-height: 740px) {
-
   .key-benefits { padding-top: var(--px-100); }
 }
