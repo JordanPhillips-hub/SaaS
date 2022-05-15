@@ -29,8 +29,6 @@
 *::before,
 *::after { box-sizing: border-box; }
 
-/* * { outline: 1px solid red;} */
-
 html { scroll-behavior: smooth;}
 
 body {
@@ -39,7 +37,6 @@ body {
   font-weight: 500;
   color: var(--clr-font-primary);
   padding-bottom: var(--px-70);
-  /* overflow-x: hidden; */
 }
  
 .btn-get-started .fa-angle-right { color: var(--clr-white); }
@@ -82,7 +79,6 @@ textarea {
   border-radius: var(--px-25);
   cursor: pointer;
   transition: ease-in-out 0.3s;
-  user-select: none;
 }
 
 .learn-more,
