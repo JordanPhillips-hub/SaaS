@@ -14,8 +14,7 @@
   [aria-controls="navbarDropdown"] {
     display: block;
     position: absolute;
-    top: var(--px-60);
-    right: var(--px-5);
+    right: var(--px-25);
     outline: none;
     border: 1px solid transparent;
   }
