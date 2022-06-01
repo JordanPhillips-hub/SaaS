@@ -2,13 +2,10 @@
 
 ## Table of contents
 
-  - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
   - [Author](#author)
-
-## Overview
 
 ### Screenshot
 
@@ -20,7 +17,7 @@
 
 ### Built with
 
-- HTML5
+- HTML
 - CSS
 - JavaScript
 
